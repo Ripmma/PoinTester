@@ -1,0 +1,55 @@
+      body {
+        font-family: 'Patua One', cursive;
+        background-color:#333333;
+        color:white;
+      }
+
+      a {
+        color: white;
+        transition:.3s;
+      }
+
+      input[type=text] {
+          margin:12px 10px;
+          width: 130px;
+          border-radius:10px;
+          color:black !important;
+      }
+
+      #gaming {
+        height:100%;
+        position:relative;
+        top:-30px;
+      }
+
+      #rating {
+        position:relative;
+        bottom:60px;
+      }
+
+      	footer {
+      		background-color:black;
+      		position:absolute;
+      		bottom:0;
+          left:0;
+          height:60px;
+          width:100%;
+          color:white;
+      	}
+
+        footer a:hover {
+          color:#117cff;
+          transition:.3s;
+          text-decoration:none;
+        }
+
+        #foot-left {
+          padding:10px 100px;
+          display:inline-block;
+        }
+
+        #foot-right {
+          display:inline-block;
+          float:right;
+          padding:10px 100px;
+        }
