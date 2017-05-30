@@ -16,6 +16,54 @@
           color:black !important;
       }
 
+      #center {
+        text-align: center;
+        position:relative;
+        bottom:10px;
+      }
+
+      #game {
+        border-right:1px solid grey;
+      }
+
+      #dlc {
+        border-right:1px solid grey;
+      }
+
+      #full {
+        border-right:1px solid grey;
+      }
+
+      #game a:hover {
+        text-decoration:none;
+        color:black;
+        transition:.3s;
+      }
+
+      #dlc a:hover {
+        text-decoration:none;
+        color:black;
+        transition:.3s;
+      }
+
+      #full a:hover {
+        text-decoration:none;
+        color:black;
+        transition:.3s;
+      }
+
+
+      #center img{
+        width:80px;
+        padding-top:22px; 
+        height:100px;   
+      }
+
+      #account img {
+        height:130px !important;
+        width:110px !important;
+      }
+
       	footer {
       		background-color:black;
       		position:absolute;
@@ -25,21 +73,6 @@
           width:100%;
           color:white;
       	}
-
-        #forms {
-          width:80%;
-          padding:100px;
-        }
-
-        #forms h1 {
-          text-align:center;
-          padding-bottom:20px;
-        }
-
-        #forms #log {
-          border-right:solid grey 1px;
-          height:25.5em;
-        }
 
         footer a:hover {
           color:#117cff;

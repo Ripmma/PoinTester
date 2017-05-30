@@ -16,6 +16,29 @@
           color:black !important;
       }
 
+      #info {
+        text-align:center;
+        position:relative;
+        bottom:15px;
+      }
+
+      #info img {
+        height:130px;
+        width:150px;
+      }
+
+      #align {
+        text-align:left;
+      }
+
+      button {
+        position:relative;
+        top:30px;
+        height:40px;
+        width:150px;
+        border-radius:20px;
+        transition:.3s
+      }
       	footer {
       		background-color:black;
       		position:absolute;
@@ -25,21 +48,6 @@
           width:100%;
           color:white;
       	}
-
-        #forms {
-          width:80%;
-          padding:100px;
-        }
-
-        #forms h1 {
-          text-align:center;
-          padding-bottom:20px;
-        }
-
-        #forms #log {
-          border-right:solid grey 1px;
-          height:25.5em;
-        }
 
         footer a:hover {
           color:#117cff;

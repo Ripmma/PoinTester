@@ -2,6 +2,7 @@
         font-family: 'Patua One', cursive;
         background-color:#333333;
         color:white;
+        margin:0 auto;
       }
 
       a {
@@ -13,8 +14,20 @@
           margin:12px 10px;
           width: 130px;
           border-radius:10px;
-          color:black !important;
+          -webkit-transition: width 0.4s ease-in-out;
+          transition: width 0.4s ease-in-out;
       }
+
+        #support {
+          text-align:center;
+          position: relative;
+          top:35px;
+        }
+
+        #support img {
+          height:80px;
+          width:80px;
+        }
 
       	footer {
       		background-color:black;
@@ -25,21 +38,6 @@
           width:100%;
           color:white;
       	}
-
-        #forms {
-          width:80%;
-          padding:100px;
-        }
-
-        #forms h1 {
-          text-align:center;
-          padding-bottom:20px;
-        }
-
-        #forms #log {
-          border-right:solid grey 1px;
-          height:25.5em;
-        }
 
         footer a:hover {
           color:#117cff;
